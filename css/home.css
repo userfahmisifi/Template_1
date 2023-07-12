@@ -1,0 +1,39 @@
+.home{
+    height: 100vh;
+    background-image:url(../images/background/background1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+ }
+ .home .overlay-content{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     width: 70%;
+ }
+ .home .overlay-content .title{
+     font-size:45px;
+ }
+ .home .overlay-content .desc{
+     margin: 20px 0;
+     letter-spacing: 2px;
+     line-height: 1.5;
+ }
+ .home .overlay-content .btn{
+     width: 160px;
+     padding: 15px 0;
+     font-size: 18px;
+     cursor: pointer;
+     border-radius: 5px;
+     border:0;
+     transition: opacity 1s;
+ }
+ .home .overlay-content .btn:hover{
+     opacity: 0.7;
+ }
+ .home .overlay-content .btn-start{
+     background:var(--whiteColor);
+     margin-right: 10px;
+ }
+ 

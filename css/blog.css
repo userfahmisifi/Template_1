@@ -1,0 +1,20 @@
+.blog-item{
+    width:30%;
+}
+.blog-item img{
+    width:100%;
+}
+.blog-item-content{
+    background:var(--whiteColor);
+    padding:20px;
+}
+.blog-item-icons li{
+    display: inline-block;
+    margin-right:5px;
+}
+.blog-item-title{
+    margin: 5px 0;
+}
+.blog-item-desc{
+    line-height:1.4;
+}

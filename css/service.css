@@ -1,0 +1,34 @@
+.service .section-header{
+    text-align: left;
+    margin-bottom: 40px;
+}
+.service-item {
+    width: 50%;
+}
+.service-desc{
+   margin-bottom: 20px;
+   line-height: 1.5;
+   padding-right: 10px;
+}
+.service-list li .icon{
+   margin-right:5px;
+   border: 1px solid #c2c0c0;
+   padding: 4px;
+   border-radius: 50%;
+}
+.service-item img{
+    width: 100%;
+}
+.service-points li{
+   width:10px ;
+   height:10px ;
+   display: inline-block;
+   margin: 10px 5px;
+   border-radius: 50%;
+}
+.service-points li:not(:first-child){
+   background: #d3d2d2;
+}
+.service-points li:hover{
+   background: var(--mainColor);
+}

@@ -1,0 +1,17 @@
+.numbers{
+    background: url(../images/background/background2.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 313px;
+    position: relative;
+}
+.numbers-item{
+    width: 25%;
+    padding: 100px 0;
+}
+.numbers-item .icon{
+    margin-bottom: 15px;
+}
+.numbers-item-title{
+    font-size:30px;
+}

@@ -1,0 +1,41 @@
+.portfolio-item{
+    width:32%;
+    position:relative;
+    padding:20px;
+    margin-bottom:25px;
+}
+.portfolio-item img{
+    width: 100%;
+}
+.portfolio-item.mg{
+    margin:0 2%;
+}
+.portfolio-item .layer{
+    background:rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+}
+.layer-info{
+    width:60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.layer-info .category{
+    display:block;
+}
+.layer-info .title{
+    font-size:18px;
+}
+.layer-info .link{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+.layer-info .link .icon {
+    line-height:40px;
+}

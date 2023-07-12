@@ -1,0 +1,35 @@
+.testimonail{
+    background: url(../images/background/background3.webp);
+    height:342px;
+    position:relative;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.testimonail .container{
+    width:58%;
+}
+.testimonail-item{
+    width: 49%;
+    padding:100px 0  100px  ;
+}
+.testimonail-item.mg{
+    margin:0 0 0 2%;
+}
+.testimonail-item-person{
+    padding-left:90px;
+    padding-bottom:12px;
+    position: relative;
+}
+.testimonail-item-person img{
+    position: absolute;
+    top: 0;
+    left:0;
+    border-radius: 50%;
+}
+.testimonail-title{
+    padding:5px 0;
+}
+.testimonail-desc{
+    line-height: 1.4;
+    font-size: 15px;
+}

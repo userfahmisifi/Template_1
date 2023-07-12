@@ -1,0 +1,14 @@
+.about-item{
+    width:30% ;
+    padding: 50px 20px ;
+    border: 1px solid #e8e8e8;
+}
+.about-item-title{
+    transition: color 1s;
+}
+.about-item-desc{
+    line-height:1.4;
+}
+.about-item:hover .about-item-title{
+    color: var(--whiteColor);
+}
